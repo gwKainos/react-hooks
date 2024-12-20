@@ -26,3 +26,5 @@ codesandbox.io와 비슷한 환경으로 세팅
     "typescript": "5.7.2"
   },
 ```
+
+## 1-2. useInput part Two
