@@ -16,3 +16,13 @@ recompose에서 시작 되었으며, 2018년 10월 25일을 마지막 업데이�
 $  npx create-react-app react-hooks
 ```
 
+## 1-1. useInput
+codesandbox.io와 비슷한 환경으로 세팅
+```text
+  "devDependencies": {
+    "@types/react": "19.0.0",
+    "@types/react-dom": "19.0.0",
+    "loader-utils": "3.2.1",
+    "typescript": "5.7.2"
+  },
+```
