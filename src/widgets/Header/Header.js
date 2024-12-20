@@ -3,36 +3,30 @@ import styles from "./Header.module.css";
 import { Link } from "react-router-dom";
 
 function Header() {
+  const links = [
+    { path: "/", label: "Home" },
+    { path: "useInput", label: "UseInput" },
+    { path: "useTabs", label: "UseTabs" },
+    { path: "useEffect", label: "UseEffect" },
+    { path: "useTitle", label: "UseTitle" },
+    { path: "useClick", label: "UseClick" },
+    { path: "useConfirm", label: "UseConfirm" },
+    { path: "usePreventLeave", label: "UsePreventLeave" },
+    { path: "useBeforeLeave", label: "UseBeforeLeave" },
+  ];
+
   return (
       <header className={styles.header}>
         <nav className={styles.nav}>
-          <Link to="/" className={styles.link}>
-            Home
-          </Link>
-          <Link to="useInput" className={styles.link}>
-            UseInput
-          </Link>
-          <Link to="useTabs" className={styles.link}>
-            UseTabs
-          </Link>
-          <Link to="useEffect" className={styles.link}>
-            UseEffect
-          </Link>
-          <Link to="useTitle" className={styles.link}>
-            UseTitle
-          </Link>
-          <Link to="useClick" className={styles.link}>
-            UseClick
-          </Link>
-          <Link to="useConfirm" className={styles.link}>
-            UseConfirm
-          </Link>
-          <Link to="usePreventLeave" className={styles.link}>
-            UsePreventLeave
-          </Link>
+          {links.map((link) => (
+              <Link key={link.path} to={link.path} className={styles.link}>
+                {link.label}
+              </Link>
+          ))}
         </nav>
       </header>
   );
 }
+
 
 export default Header;

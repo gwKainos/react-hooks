@@ -38,3 +38,5 @@ codesandbox.io와 비슷한 환경으로 세팅
 ## 2-2. useClick
 
 ## 2-3. useConfirm & usePreventLeave
+
+## 2-4. useBeforeLeave

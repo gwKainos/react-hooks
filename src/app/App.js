@@ -9,6 +9,7 @@ import UseTitle from "../pages/UseTitle/UseTitle";
 import UseClick from "../pages/UseClick/UseClick";
 import UseConfirm from "../pages/UseConfirm/UseConfirm";
 import UsePreventLeave from "../pages/UsePreventLeave/UsePreventLeave";
+import UseBeforeLeave from "../pages/UseBeforeLeave/UseBeforeLeave";
 
 function App() {
   return <Router>
@@ -22,6 +23,7 @@ function App() {
       <Route path="/useClick" element={<UseClick/>}/>
       <Route path="/useConfirm" element={<UseConfirm/>}/>
       <Route path="/usePreventLeave" element={<UsePreventLeave/>}/>
+      <Route path="/useBeforeLeave" element={<UseBeforeLeave/>}/>
     </Routes>
   </Router>;
 }
