@@ -24,6 +24,12 @@ function Header() {
           <Link to="useClick" className={styles.link}>
             UseClick
           </Link>
+          <Link to="useConfirm" className={styles.link}>
+            UseConfirm
+          </Link>
+          <Link to="usePreventLeave" className={styles.link}>
+            UsePreventLeave
+          </Link>
         </nav>
       </header>
   );

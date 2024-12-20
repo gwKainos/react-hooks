@@ -7,6 +7,8 @@ import UseTabs from "../pages/UseTabs/UseTabs";
 import UseEffect from "../pages/UseEffect/UseEffect";
 import UseTitle from "../pages/UseTitle/UseTitle";
 import UseClick from "../pages/UseClick/UseClick";
+import UseConfirm from "../pages/UseConfirm/UseConfirm";
+import UsePreventLeave from "../pages/UsePreventLeave/UsePreventLeave";
 
 function App() {
   return <Router>
@@ -18,6 +20,8 @@ function App() {
       <Route path="/useTabs" element={<UseTabs/>}/>
       <Route path="/useTitle" element={<UseTitle/>}/>
       <Route path="/useClick" element={<UseClick/>}/>
+      <Route path="/useConfirm" element={<UseConfirm/>}/>
+      <Route path="/usePreventLeave" element={<UsePreventLeave/>}/>
     </Routes>
   </Router>;
 }
