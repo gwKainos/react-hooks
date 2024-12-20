@@ -17,6 +17,7 @@ function Header() {
     { path: "useNetwork", label: "UseNetwork" },
     { path: "useScroll", label: "UseScroll" },
     { path: "useFullscreen", label: "UseFullscreen" },
+    { path: "useNotification", label: "UseNotification" },
   ];
 
   return (
@@ -31,6 +32,5 @@ function Header() {
       </header>
   );
 }
-
 
 export default Header;

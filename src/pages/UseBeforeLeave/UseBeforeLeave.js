@@ -21,9 +21,9 @@ function UseBeforeLeave() {
   const begForLife = () => console.log("please dont leave");
   useBeforeLeave(begForLife);
   return (
-      <>
+      <div>
         <h1>useBeforeLeave</h1>
-      </>
+      </div>
   );
 }
 

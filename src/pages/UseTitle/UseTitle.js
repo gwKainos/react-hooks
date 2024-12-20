@@ -16,9 +16,9 @@ function UseTitle() {
     titleUpdater("Home");
   }, 5000);
   return (
-      <>
+      <div>
         <h1>useTitle</h1>
-      </>
+      </div>
   );
 }
 

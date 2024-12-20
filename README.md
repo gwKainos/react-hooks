@@ -44,3 +44,6 @@ codesandbox.io와 비슷한 환경으로 세팅
 ## 2-5. useFadeIn & useNetwork
 
 ## 2-6. useScroll & useFullscreen
+
+## 2-7. useNotification
+정상 동작 안함!!!

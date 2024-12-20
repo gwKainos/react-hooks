@@ -35,7 +35,7 @@ function UseFullscreen() {
   };
   const { element, triggerFull, exitFull } = useFullscreen(onFullS);
   return (
-      <>
+      <div>
         <h1>useFullscreen</h1>
         <div ref={element}>
           <img src="/images/image.webp" width="250" alt="grape"/>
@@ -44,7 +44,7 @@ function UseFullscreen() {
             <button onClick={triggerFull}>Make Fullscreen</button>
           </div>
         </div>
-      </>
+      </div>
   );
 }
 

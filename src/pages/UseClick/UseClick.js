@@ -26,10 +26,10 @@ function UseClick() {
   const sayHello = () => console.log("Hello");
   const click = useClick(sayHello);
   return (
-      <>
+      <div>
         <h1>useClick</h1>
         <div ref={click}>Click Here</div>
-      </>
+      </div>
   );
 }
 

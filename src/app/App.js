@@ -14,6 +14,7 @@ import UseFadeIn from "../pages/UseFadeIn/UseFadeIn";
 import UseNetwork from "../pages/UseNetwork/UseNetwork";
 import UseScroll from "../pages/UseScroll/UseScroll";
 import UseFullscreen from "../pages/UseFullscreen/UseFullscreen";
+import UseNotification from "../pages/UseNotification/UseNotification";
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
       <Route path="/useNetwork" element={<UseNetwork/>}/>
       <Route path="/useScroll" element={<UseScroll/>}/>
       <Route path="/useFullscreen" element={<UseFullscreen/>}/>
+      <Route path="/useNotification" element={<UseNotification/>}/>
     </Routes>
   </Router>;
 }

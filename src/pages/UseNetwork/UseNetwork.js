@@ -26,10 +26,10 @@ function UseNetwork() {
       console.log(online ? "We just went online" : "We are offline");
   const onLine = useNetwork(handleNetworkChange);
   return (
-      <>
+      <div>
         <h1>useNetwork</h1>
         <p>{onLine ? "Onlin" : "Offline"}</p>
-      </>
+      </div>
   );
 }
 

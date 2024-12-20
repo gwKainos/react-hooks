@@ -20,10 +20,10 @@ const useFadeIn = (duration = 1, delay = 0) => {
 function UseFadeIn() {
   const fadeIn = useFadeIn(2);
   return (
-      <>
+      <div>
         <h1>useFadeIn</h1>
         <div {...fadeIn}>Test FadeIn!</div>
-      </>
+      </div>
   );
 }
 
