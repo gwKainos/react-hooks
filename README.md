@@ -42,3 +42,5 @@ codesandbox.io와 비슷한 환경으로 세팅
 ## 2-4. useBeforeLeave
 
 ## 2-5. useFadeIn & useNetwork
+
+## 2-6. useScroll & useFullscreen

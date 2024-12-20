@@ -12,6 +12,8 @@ import UsePreventLeave from "../pages/UsePreventLeave/UsePreventLeave";
 import UseBeforeLeave from "../pages/UseBeforeLeave/UseBeforeLeave";
 import UseFadeIn from "../pages/UseFadeIn/UseFadeIn";
 import UseNetwork from "../pages/UseNetwork/UseNetwork";
+import UseScroll from "../pages/UseScroll/UseScroll";
+import UseFullscreen from "../pages/UseFullscreen/UseFullscreen";
 
 
 function App() {
@@ -29,6 +31,8 @@ function App() {
       <Route path="/useBeforeLeave" element={<UseBeforeLeave/>}/>
       <Route path="/useFadeIn" element={<UseFadeIn/>}/>
       <Route path="/useNetwork" element={<UseNetwork/>}/>
+      <Route path="/useScroll" element={<UseScroll/>}/>
+      <Route path="/useFullscreen" element={<UseFullscreen/>}/>
     </Routes>
   </Router>;
 }

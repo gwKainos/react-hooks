@@ -15,6 +15,8 @@ function Header() {
     { path: "useBeforeLeave", label: "UseBeforeLeave" },
     { path: "useFadeIn", label: "UseFadeIn" },
     { path: "useNetwork", label: "UseNetwork" },
+    { path: "useScroll", label: "UseScroll" },
+    { path: "useFullscreen", label: "UseFullscreen" },
   ];
 
   return (
