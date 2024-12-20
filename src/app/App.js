@@ -1,15 +1,18 @@
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
-import Header from "../widgets/Header/Header";
-import UseInput from "../pages/UseInput/UseInput";
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import React from "react";
+import Header from "../widgets/Header/Header";
 import Home from "../pages/Home/Home";
-import UseTabs from "../pages/UseTabs/UseTabs";
 import UseEffect from "../pages/UseEffect/UseEffect";
+import UseInput from "../pages/UseInput/UseInput";
+import UseTabs from "../pages/UseTabs/UseTabs";
 import UseTitle from "../pages/UseTitle/UseTitle";
 import UseClick from "../pages/UseClick/UseClick";
 import UseConfirm from "../pages/UseConfirm/UseConfirm";
 import UsePreventLeave from "../pages/UsePreventLeave/UsePreventLeave";
 import UseBeforeLeave from "../pages/UseBeforeLeave/UseBeforeLeave";
+import UseFadeIn from "../pages/UseFadeIn/UseFadeIn";
+import UseNetwork from "../pages/UseNetwork/UseNetwork";
+
 
 function App() {
   return <Router>
@@ -24,6 +27,8 @@ function App() {
       <Route path="/useConfirm" element={<UseConfirm/>}/>
       <Route path="/usePreventLeave" element={<UsePreventLeave/>}/>
       <Route path="/useBeforeLeave" element={<UseBeforeLeave/>}/>
+      <Route path="/useFadeIn" element={<UseFadeIn/>}/>
+      <Route path="/useNetwork" element={<UseNetwork/>}/>
     </Routes>
   </Router>;
 }

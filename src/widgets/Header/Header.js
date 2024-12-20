@@ -13,6 +13,8 @@ function Header() {
     { path: "useConfirm", label: "UseConfirm" },
     { path: "usePreventLeave", label: "UsePreventLeave" },
     { path: "useBeforeLeave", label: "UseBeforeLeave" },
+    { path: "useFadeIn", label: "UseFadeIn" },
+    { path: "useNetwork", label: "UseNetwork" },
   ];
 
   return (
