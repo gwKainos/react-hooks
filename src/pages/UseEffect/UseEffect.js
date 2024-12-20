@@ -11,7 +11,7 @@ function UseEffect() {
 
   return (
       <div>
-        <h1>Hi</h1>
+        <h1>useEffect</h1>
         <button onClick={() => setNumber(number + 1)}>{number}</button>
         <button onClick={() => setAnumber(aNumber + 1)}>{aNumber}</button>
       </div>

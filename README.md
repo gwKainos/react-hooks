@@ -34,3 +34,5 @@ codesandbox.io와 비슷한 환경으로 세팅
 ## 2-0. Introduction to useEffect
 
 ## 2-1. useTitle
+
+## 2-2. useClick

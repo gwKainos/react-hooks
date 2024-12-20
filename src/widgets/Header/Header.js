@@ -21,6 +21,9 @@ function Header() {
           <Link to="useTitle" className={styles.link}>
             UseTitle
           </Link>
+          <Link to="useClick" className={styles.link}>
+            UseClick
+          </Link>
         </nav>
       </header>
   );
