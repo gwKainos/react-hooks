@@ -4,12 +4,14 @@ import UseInput from "../pages/UseInput/UseInput";
 import React from "react";
 import Home from "../pages/Home/Home";
 import UseTabs from "../pages/UseTabs/UseTabs";
+import UseEffect from "../pages/UseEffect/UseEffect";
 
 function App() {
   return <Router>
     <Header/>
     <Routes>
       <Route path="/" element={<Home/>}/>
+      <Route path="/useEffect" element={<UseEffect/>}/>
       <Route path="/useInput" element={<UseInput/>}/>
       <Route path="/useTabs" element={<UseTabs/>}/>
     </Routes>
