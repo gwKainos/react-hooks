@@ -5,6 +5,7 @@ import React from "react";
 import Home from "../pages/Home/Home";
 import UseTabs from "../pages/UseTabs/UseTabs";
 import UseEffect from "../pages/UseEffect/UseEffect";
+import UseTitle from "../pages/UseTitle/UseTitle";
 
 function App() {
   return <Router>
@@ -14,6 +15,7 @@ function App() {
       <Route path="/useEffect" element={<UseEffect/>}/>
       <Route path="/useInput" element={<UseInput/>}/>
       <Route path="/useTabs" element={<UseTabs/>}/>
+      <Route path="/useTitle" element={<UseTitle/>}/>
     </Routes>
   </Router>;
 }

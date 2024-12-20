@@ -18,6 +18,9 @@ function Header() {
           <Link to="useEffect" className={styles.link}>
             UseEffect
           </Link>
+          <Link to="useTitle" className={styles.link}>
+            UseTitle
+          </Link>
         </nav>
       </header>
   );
