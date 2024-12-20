@@ -12,6 +12,9 @@ function Header() {
           <Link to="useInput" className={styles.link}>
             UseInput
           </Link>
+          <Link to="useTabs" className={styles.link}>
+            UseTabs
+          </Link>
         </nav>
       </header>
   );
