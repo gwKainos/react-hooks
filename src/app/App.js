@@ -15,6 +15,7 @@ import UseNetwork from "../pages/UseNetwork/UseNetwork";
 import UseScroll from "../pages/UseScroll/UseScroll";
 import UseFullscreen from "../pages/UseFullscreen/UseFullscreen";
 import UseNotification from "../pages/UseNotification/UseNotification";
+import UseAxios from "../pages/UseAxios/UseAxios";
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
       <Route path="/useScroll" element={<UseScroll/>}/>
       <Route path="/useFullscreen" element={<UseFullscreen/>}/>
       <Route path="/useNotification" element={<UseNotification/>}/>
+      <Route path="/useAxios" element={<UseAxios/>}/>
     </Routes>
   </Router>;
 }

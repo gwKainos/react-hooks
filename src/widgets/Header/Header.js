@@ -18,6 +18,7 @@ function Header() {
     { path: "useScroll", label: "UseScroll" },
     { path: "useFullscreen", label: "UseFullscreen" },
     { path: "useNotification", label: "UseNotification" },
+    { path: "useAxios", label: "UseAxios" },
   ];
 
   return (
